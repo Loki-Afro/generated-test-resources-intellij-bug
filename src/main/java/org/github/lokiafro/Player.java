@@ -8,6 +8,13 @@ public class Player {
     private String team;
     private List<String> teamMates;
 
+    public Player(String name, String team, List<String> teamMates) {
+        this.name = name;
+        this.team = team;
+        this.teamMates = teamMates;
+    }
+
+
     // constructor and setters omitted
     public String getName() {
         return name;
